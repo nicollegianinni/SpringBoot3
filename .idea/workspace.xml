@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba94e20-dd72-4532-997a-8b9b8a9e4aaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/DTOs/FoodResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/food/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/repository/FoodRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/DTOs/FoodRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/DTOs/FoodRequestDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/controller/foodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/controller/foodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardapio/src/main/java/com/cardapio/food/Food.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

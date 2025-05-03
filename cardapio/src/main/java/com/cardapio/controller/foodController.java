@@ -2,6 +2,7 @@ package com.cardapio.controller;
 
 import com.cardapio.DTOs.FoodRequestDTO;
 import com.cardapio.DTOs.FoodResponseDTO;
+import com.cardapio.food.Food;
 import com.cardapio.repository.FoodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +17,9 @@ public class foodController {
 
     @PostMapping
     public void saveFood(@RequestBody FoodRequestDTO data){
-
+        Food foodData = new Food(data);
+        repository.save(foodData);
+        return;
     }
     @GetMapping
     public List<FoodResponseDTO> getAll(){

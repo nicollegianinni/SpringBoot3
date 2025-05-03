@@ -1,11 +1,8 @@
 package com.cardapio.food;
 
+import com.cardapio.DTOs.FoodRequestDTO;
+import com.cardapio.DTOs.FoodResponseDTO;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import org.hibernate.boot.registry.selector.spi.StrategyCreator;
 
 
 @Table(name = "foods")
@@ -26,10 +23,13 @@ public class Food {
     private Integer price;
 
     public Food(Long id, String title, String image, Integer price) {
-        this.id = id;
-        this.title = title;
-        this.image = image;
-        this.price = price;
+
+    }
+
+    public Food(FoodRequestDTO data){
+        this.image = data.image();
+        this.price = data.price();
+        this.title = data.title();
     }
 
     public Long getId() {
