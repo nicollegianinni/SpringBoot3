@@ -22,7 +22,7 @@ public class Food {
     private String image;
     private Integer price;
 
-    public Food(Long id, String title, String image, Integer price) {
+    public Food() {
 
     }
 
